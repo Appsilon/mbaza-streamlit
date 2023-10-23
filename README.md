@@ -17,7 +17,7 @@ This application showcases how easy it is to create PoC in streamlit and accompa
 
 ## Requirements
 
-- Python 3.11
+- Python 3.10
 - Libraries listed in `requirements.txt`
 
 ## Setup
@@ -30,7 +30,7 @@ This application showcases how easy it is to create PoC in streamlit and accompa
 
 ```bash
 git clone https://github.com/Appsilon/mbaza-streamlit.git
-conda create -n mbaza-streamlit python=3.11
+conda create -n mbaza-streamlit python=3.10
 conda activate mbaza-streamlit
 pip install -r requirements.txt
 streamlit run app.py

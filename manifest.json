@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-streamlit",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.11.5",
+    "package_manager": {
+      "name": "pip",
+      "version": "23.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "93d3d61aed40e8eda7bfc772c97eca47"
+    },
+    ".gitignore": {
+      "checksum": "9cc6f89b8c38d44150ce784e123fd75d"
+    },
+    ".vscode/settings.json": {
+      "checksum": "e528274dd59fa6f63cf8e9457174993b"
+    },
+    "README.md": {
+      "checksum": "4ff6258d7d1c3004298348836b482037"
+    },
+    "app.py": {
+      "checksum": "edd327be977af8c021a354a0b936dccc"
+    },
+    "images/img1.jpg": {
+      "checksum": "599ba54e489deaaf2b1b1af5393d2a26"
+    },
+    "images/img2.jpg": {
+      "checksum": "61b7a9317aaf8066f1d349b9be164ffc"
+    },
+    "images/img3.jpg": {
+      "checksum": "a8823978623ce5f20cf1ef3ae5397605"
+    },
+    "images/img4.jpg": {
+      "checksum": "345991dec22552a7dc7c6ae68b346bfc"
+    },
+    "images/img5.jpg": {
+      "checksum": "c17e12da2d43f5c31ad346bbef9457ff"
+    },
+    "images/img6.jpg": {
+      "checksum": "0ac9a850f31628f2041c7a37f298a117"
+    },
+    "model.py": {
+      "checksum": "000e2dbbe80c9a53a9b9330968c15518"
+    },
+    "resnet50_larger.onnx": {
+      "checksum": "7ec0532e98f794e9456ce8821afec3b6"
+    },
+    "screenshot.png": {
+      "checksum": "f6521660785745ce4af77c5864c0bc19"
+    }
+  }
+}

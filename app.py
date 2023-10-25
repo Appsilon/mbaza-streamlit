@@ -19,6 +19,7 @@ model = get_model()
 "By [Appsilon](https://appsilon.com/) with ❤️"
 "---"
 "This app is a simple showcase of how to run [Mbaza](https://appsilon.com/data-for-good/mbaza-ai/) ONNX model in `streamlit`."
+"To use the uploaded image, select `Upload your own` option."
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 

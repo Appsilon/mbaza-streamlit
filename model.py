@@ -6,7 +6,7 @@ from PIL import Image
 class Model:
     def __init__(self, path) -> None:
         self.session = ort.InferenceSession(path)
-        self.img_size = self.session.get_inputs()[0].shape[2:][::-1]
+        self.img_size = self.session.get_inputs()[0].shape[1:3][::-1]
         self.classes = [
             "Bird",
             "Blank",
@@ -42,7 +42,6 @@ class Model:
         img = img.resize(self.img_size).convert("RGB")
         x = np.array(img).astype(np.float32) / 255
         x = np.expand_dims(x, 0)
-        x = np.moveaxis(x, -1, 1)
         return x
 
     def predict(self, img: Image.Image):

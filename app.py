@@ -10,7 +10,7 @@ st.set_page_config(page_title="Mbaza Streamlit Interface")
 
 @st.cache_resource
 def get_model():
-    return Model("resnet50_larger.onnx")
+    return Model("gabon.onnx")
 
 
 model = get_model()

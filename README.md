@@ -3,7 +3,7 @@
 ## Overview
 
 This is a `streamlit` web application for showcasing the [Mbaza](https://appsilon.com/data-for-good/mbaza-ai/) ONNX model for image classification. Developed by [Appsilon](https://appsilon.com/).
-Note that this is NOT `streamlit` version of the [Mbaza](https://github.com/Appsilon/mbaza) application.
+Note that this is NOT a `streamlit` version of the [Mbaza](https://github.com/Appsilon/mbaza) application.
 
 This application showcases how easy it is to create PoC in streamlit and accompanies XXX post.
 
@@ -38,4 +38,4 @@ streamlit run app.py
 
 ## Live Demo
 
-A live demo of the application is available [here](XXX).
+A live demo of the application is available [on Appsilon's Posit Connect](https://connect.appsilon.com/content/96848cf2-c300-4c67-ac0a-a1833f6f5995).

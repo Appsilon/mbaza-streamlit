@@ -21,12 +21,13 @@ This application showcases how easy it is to create PoC in streamlit and accompa
 - Libraries listed in `requirements.txt`
 
 ## Setup
-<!-- TODO onnx model download -->
+
 1. Clone this repository.
-2. Create a conda environment.
-3. Activate the conda environment.
-4. Install the requirements.
-5. Run the streamlit app.
+2. Download the `gabon.onnx` file from [the Mbaza release on GitHub](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1). Put this file into the `mbaza-streamlit` directory.
+3. Create a conda environment.
+4. Activate the conda environment.
+5. Install the requirements.
+6. Run the streamlit app.
 
 ```bash
 git clone https://github.com/Appsilon/mbaza-streamlit.git
